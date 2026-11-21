@@ -231,8 +231,8 @@
 
 ## AI 활용 내용 및 느낀 점
 - 활용 내용
-  - Claude Code를 사용해 강의자료의 예제 코드 수준에 맞춰 4개 Lab의 TODO 구현과 Customizing을 진행함
-  - 브라우저에서 각 Lab 버튼을 눌러 보는 동작 확인과 README 정리에도 활용함
+  - 코드 검증: 4개 Lab 코드가 강의자료 예제와 맞게 동작하는지, Cleanup 누락이나 Timer 중복 실행 같은 문제가 없는지 Claude Code로 검토함
+  - 관련 내용 학습: Dependency Array와 Cleanup의 실행 시점, StrictMode에서 Effect가 두 번 실행되는 이유, useState와 useRef의 차이처럼 헷갈리는 부분을 질문하며 학습함
 - 느낀 점
-  - AI가 작성한 코드라도 강의자료의 예제와 한 줄씩 비교하면서 왜 그렇게 동작하는지 직접 확인하는 과정이 필요하다고 느낌
+  - AI의 설명을 그대로 받아들이기보다 강의자료와 비교하고 직접 실행해 보면서 확인하는 과정이 필요하다고 느낌
   - 특히 Cleanup이나 Dependency Array는 직접 빼 보고 실행해 봐야 차이를 제대로 이해할 수 있었음

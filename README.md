@@ -213,8 +213,9 @@
 
 # Deployment
 - GitHub Repository: https://github.com/2026-2-OSS/assign12-c01-22300404
-- Vercel URL: (배포 후 추가 예정)
-- GitHub Push 후 Vercel Auto Deploy 확인: (배포 후 확인 예정)
+- Vercel URL: https://week12-starter-project-fawn.vercel.app
+- Auto Deploy: GitHub main 브랜치에 Push하면 Vercel이 자동으로 다시 배포함
+- 배포된 사이트에서 4개 Lab 정상 동작 확인
 
 # Weekly Review
 
